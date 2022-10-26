@@ -26,20 +26,20 @@ public class Contacts {
 
 
     })
-    private Names freinds;
+    private Names friends;
 
 
 
     public Contacts() {
     }
 
-    public Contacts(int id, String name, String title, String company, Names coworkersNames, Names freinds) {
+    public Contacts(int id, String name, String title, String company, Names coworkersNames, Names friends) {
         this.id = id;
         this.name = name;
         this.title = title;
         this.company = company;
         this.coworkersNames = coworkersNames;
-        this.freinds = freinds;
+        this.friends = friends;
     }
 
     public Contacts(int id, String name, String title, String company) {
@@ -89,12 +89,12 @@ public class Contacts {
         this.coworkersNames = coworkers;
     }
 
-    public Names getFreinds() {
-        return freinds;
+    public Names getFriends() {
+        return friends;
     }
 
-    public void setFreinds(Names freinds) {
-        this.freinds = freinds;
+    public void setFriends(Names friends) {
+        this.friends = friends;
     }
 }
 
